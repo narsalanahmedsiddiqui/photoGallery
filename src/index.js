@@ -15,12 +15,9 @@ class App extends Component {
       <Grid container spacing={4}>
         <Grid item xs={6}>
           <MyReactImageMagnify />
-          <MyImageGallery />
         </Grid>
         <Grid container spacing={2} item xs={6} direction="column">
-          <Grid item>
-            <Paper>bla blah</Paper>
-          </Grid>
+          <Grid item></Grid>
         </Grid>
       </Grid>
     );
